@@ -1,0 +1,335 @@
+use master
+if exists (SELECT * FROM sys.databases where name = 'Aid4Trade Database (13118059)')
+drop database [Aid4Trade Database (13118059)]
+
+create database [Aid4Trade Database (13118059)]
+COLLATE Cyrillic_General_CI_AS;
+go
+
+use [Aid4Trade Database (13118059)]
+go
+
+/*      заявки за създаване на таблици      */     
+
+-- Търговци
+create table Dealers
+([Dealer ID] int IDENTITY(1,1) not null,
+[Dealer name] nvarchar(20) not null,
+[Dealer password] nvarchar(40) not null,
+[Dealer description] nvarchar(max) not null,
+[Dealer type] nvarchar(10) not null,
+[Dealer country] nvarchar(20) not null,
+[Dealer city] nvarchar(30) not null,
+Phone nvarchar(25) not null,
+[Dealer email] nvarchar(50) not null,
+[Rating value] numeric(6) not null,
+[Dealer status] nvarchar(15) not null,
+[Dealer role] nvarchar(20) not null,
+CONSTRAINT PK_DealerID PRIMARY KEY NONCLUSTERED ([Dealer ID]))
+
+-- Потребители
+create table Users
+([User ID] int IDENTITY(1,1) not null,
+[User name] nvarchar(20) not null,
+[User password] nvarchar(40) not null,
+[User country] nvarchar(20) not null,
+[User city] nvarchar(30) not null,
+[User email] nvarchar(50) not null,
+[User status] nvarchar(15) not null,
+[User role] nvarchar(20) not null,
+CONSTRAINT PK_UserID PRIMARY KEY NONCLUSTERED ([User ID]))
+
+-- Продукти
+create table Products
+([Product ID] int IDENTITY(1,1) not null,
+[Dealer ID] int not null,
+[Product name] nvarchar(30) not null,
+[Product description] nvarchar(max) not null,
+[Product image] nvarchar(255) not null,
+[Product price] numeric(10,2) null,
+[Product status] nvarchar(15) not null,
+CONSTRAINT PK_ProductID PRIMARY KEY NONCLUSTERED ([Product ID])
+)
+
+-- Категории
+create table [Categories]
+([Category ID] int IDENTITY(1,1) not null,
+[Category name] nvarchar(30) not null,
+[Category description] nvarchar(max) not null,
+CONSTRAINT PK_CategoryID PRIMARY KEY NONCLUSTERED ([Category ID]))
+
+-- Продукти_Категории
+create table [Product_Category]
+([Product_Category ID] int IDENTITY(1,1) not null,
+[Product ID] int not null,
+[Category ID] int not null,
+CONSTRAINT PK_Product_CategoryID PRIMARY KEY NONCLUSTERED ([Product_Category ID])
+)
+
+-- Рейтинг на търговеца
+create table [Dealer rating]
+([Dealer rating ID] int IDENTITY(1,1) not null,
+[User ID] int not null,
+[Dealer ID] int not null,
+[Rating type] nvarchar(10) not null,
+CONSTRAINT PK_Dealer_ratingID PRIMARY KEY NONCLUSTERED ([Dealer rating ID])    
+)
+
+-- Коментар за продукт
+create table [Comment for product]
+([Comment ID] int IDENTITY(1,1) not null,
+[Product ID] int not null,
+[User ID] int not null,
+[Description of the comment] nvarchar(max) not null,
+CONSTRAINT PK_CommentID_Comment_for_product PRIMARY KEY NONCLUSTERED ([Comment ID])
+)
+go
+
+/*      заявки за създаване на уникални индекси по таблиците     */  
+-- за търговците 
+create unique index Dealer_Email_UQ on Dealers ([Dealer email])
+
+-- за потребителите
+create unique index User_Email_UQ on Users ([User email])
+
+-- за категориите
+create unique index Category_Name_UQ on [Categories] ([Category name])
+go
+
+/*      заявки за създаване на връзки между таблиците    */
+
+-- за продуктите
+alter table Products
+ADD CONSTRAINT FK_DealerID foreign key ([Dealer ID])
+REFERENCES Dealers ([Dealer ID])     
+    ON DELETE CASCADE
+
+-- за продукти_категории
+alter table [Product_Category]
+ADD CONSTRAINT FK_ProductID foreign key ([Product ID])
+REFERENCES Products ([Product ID])     
+    ON DELETE CASCADE,
+CONSTRAINT FK_CategoryID foreign key ([Category ID])
+REFERENCES [Categories] ([Category ID])     
+    ON DELETE CASCADE
+
+-- за рейтинг на търговците
+alter table [Dealer rating]
+ADD CONSTRAINT FK_UserID_Dealer_rating foreign key ([User ID])
+REFERENCES Users ([User ID])     
+    ON DELETE CASCADE,    
+CONSTRAINT FK_DealerID_Dealer_rating foreign key ([Dealer ID])
+REFERENCES Dealers ([Dealer ID])     
+    ON DELETE CASCADE 
+
+-- за коментар на продукта
+alter table [Comment for product]
+ADD CONSTRAINT FK_ProductID_Comment_for_product foreign key ([Product ID])
+REFERENCES Products ([Product ID])     
+    ON DELETE CASCADE,
+CONSTRAINT FK_UserID_Comment_for_product foreign key ([User ID])
+REFERENCES Users ([User ID])
+	ON DELETE CASCADE
+go
+
+/*      заявки за създаване на изгледи    */
+
+-- за продукти в категория
+create view product_list as
+select p.[Product ID], p.[Product name], p.[Product image], p.[Product status],c.[Category name] 
+from Products p inner join [Product_Category] p_c on p.[Product ID]=p_c.[Product ID] 
+inner join Categories c on c.[Category ID]=p_c.[Category ID]
+go
+
+-- за детайли на продукта и неговия търговец
+create view product_details_and_dealer_info as
+select p.[Product ID], d.[Dealer ID], p.[Product name], p.[Product description], 
+p.[Product image], p.[Product price], p.[Product status],d.[Dealer name], d.[Dealer description], d.[Dealer type], 
+d.[Dealer country], d.[Dealer city], d.Phone, d.[Dealer email], d.[Rating value], c.[Category name] 
+from Products p inner join [Product_Category] p_c on p.[Product ID]=p_c.[Product ID] 
+inner join Categories c on c.[Category ID]=p_c.[Category ID] 
+inner join Dealers d on p.[Dealer ID]=d.[Dealer ID]
+go
+
+-- за коментар на продукта и информация за потребителя, който е дал коментара
+create view product_comment_and_user_info as
+select c_p.[Comment ID],c_p.[Product ID], c_p.[User ID], u.[User name], u.[User country], 
+u.[User city], u.[User email], p.[Product name],c_p.[Description of the comment] 
+from [Comment for product] c_p inner join Users u on c_p.[User ID]=u.[User ID] 
+inner join Products p on c_p.[Product ID]= p.[Product ID]
+go
+
+/*      заявки за създаване на съхранени процедури    */
+
+-- за валидиране на потребител 
+CREATE PROCEDURE validate_user
+      @UserEmail NVARCHAR(50),
+      @Password NVARCHAR(40)
+AS
+SET NOCOUNT ON;
+      DECLARE @UserId INT
+	  DECLARE @Role NVARCHAR(20)
+	  DECLARE @UserName NVARCHAR(20)
+
+	  SELECT @UserId = [User ID], @Role = [User role], @UserName = [User name]
+      FROM Users WHERE [User email] = @UserEmail COLLATE SQL_Latin1_General_CP1_CS_AS AND [User password] = @Password COLLATE SQL_Latin1_General_CP1_CS_AS
+
+	  IF @UserId IS NOT NULL
+      BEGIN
+            IF EXISTS(SELECT [User ID] FROM Users WHERE [User ID] = @UserId)
+            BEGIN
+                  SELECT @UserId [UserId], @Role [Role], @UserName [User name], @UserEmail [User email]
+            END
+      END
+      ELSE
+      BEGIN
+            SELECT -1 [UserId], '' [Role], '' [User name], '' [User email]
+END
+go
+
+-- за регистриране на потребител
+create procedure register_user 
+@UserName nvarchar(20),
+@UserPassword nvarchar(40),
+@UserCountry nvarchar(20),
+@UserCity nvarchar(30),
+@UserEmail nvarchar(50),
+@msg int output
+as 
+begin
+if not exists(select [User email] from Users where [User email] = @UserEmail)
+begin
+insert into Users([User name],[User password],[User country],[User city],[User email],[User status],[User role])
+values(@UserName,@UserPassword,@UserCountry,@UserCity,@UserEmail,'Registered','User')
+set @msg=0
+end
+else
+begin
+set @msg=-1
+end
+select @msg
+end
+go
+
+-- за валидиране на търговец
+CREATE PROCEDURE validate_dealer
+      @DealerEmail NVARCHAR(50),
+      @Password NVARCHAR(40)
+AS
+SET NOCOUNT ON;
+      DECLARE @DealerId INT
+	  DECLARE @Role NVARCHAR(20)
+	  DECLARE @DealerStatus NVARCHAR(15)
+	  DECLARE @DealerName NVARCHAR(20)
+
+	  SELECT @DealerId = [Dealer ID], @Role = [Dealer role], @DealerStatus=[Dealer status], @DealerName = [Dealer name]
+      FROM Dealers WHERE [Dealer email] = @DealerEmail COLLATE SQL_Latin1_General_CP1_CS_AS AND [Dealer password] = @Password COLLATE SQL_Latin1_General_CP1_CS_AS
+
+	  IF @DealerId IS NOT NULL
+      BEGIN
+            IF EXISTS(SELECT [Dealer ID] FROM Dealers WHERE [Dealer ID] = @DealerId)
+            BEGIN
+                  SELECT @DealerId [Dealer ID], @Role [Role], @DealerStatus [Dealer status], @DealerName [Dealer name], @DealerEmail [Dealer email]
+            END
+      END
+      ELSE
+      BEGIN
+            SELECT -1 [Dealer ID], '' [Role], '' [Dealer status], '' [Dealer name], '' [Dealer email]
+END
+go
+
+-- за регистрация на търговец
+create procedure register_dealer 
+@DealerName nvarchar(20),
+@DealerPassword nvarchar(40),
+@DealerDescription nvarchar(max),
+@DealerType nvarchar(10),
+@DealerCountry nvarchar(20),
+@DealerCity nvarchar(30),
+@Phone nvarchar(25),
+@DealerEmail nvarchar(50),
+@msg int output
+as 
+begin
+if not exists(select [Dealer email] from Dealers where [Dealer email] = @DealerEmail)
+begin
+insert into Dealers([Dealer name],[Dealer password],[Dealer description],[Dealer type],[Dealer country],[Dealer city],Phone,[Dealer email],[Dealer status],[Rating value],[Dealer role])
+values(@DealerName,@DealerPassword,@DealerDescription,@DealerType,@DealerCountry,@DealerCity,@Phone,@DealerEmail,'Registered',3,'Dealer')
+set @msg=0
+end
+else
+begin
+set @msg=-1
+end
+select @msg
+end
+go
+
+-- за даване на оценка по рейтинга
+create procedure give_rating 
+@UserID int,
+@ProductID int,
+@RatingType nvarchar(10),
+@msg int output
+as 
+begin
+	if exists(SELECT [Dealer ID], [User ID], [Rating type] FROM [Dealer rating] where [User ID] = @UserID and [Dealer ID] = (select [Dealer ID] from product_details_and_dealer_info where [Product ID] = @ProductID))
+	set @msg = 0
+end
+if not exists(SELECT [Dealer ID], [User ID], [Rating type] FROM [Dealer rating] where [User ID] = @UserID and [Dealer ID] = (select [Dealer ID] from product_details_and_dealer_info where [Product ID] = @ProductID))
+begin
+	if @RatingType = 'Good'
+	begin
+		update Dealers
+		set [Rating value] = [Rating value] + 1 where [Dealer ID] = (select [Dealer ID] from product_details_and_dealer_info where [Product ID] = @ProductID)
+		insert into [Dealer rating]([User ID],[Dealer ID],[Rating type])
+		values(@UserID,(select [Dealer ID] from product_details_and_dealer_info where [Product ID] = @ProductID),'Good')
+		set @msg=1
+	end
+	if @RatingType = 'Bad'
+	begin
+		update Dealers
+		set [Rating value] = [Rating value] - 1 where [Dealer ID] = (select [Dealer ID] from product_details_and_dealer_info where [Product ID] = @ProductID)
+		insert into [Dealer rating]([User ID],[Dealer ID],[Rating type])
+		values(@UserID,(select [Dealer ID] from product_details_and_dealer_info where [Product ID] = @ProductID),'Bad')
+		set @msg=-1
+	end
+end
+go
+
+-- за качване на продукт
+create procedure upload_product
+@DealerID int,
+@ProductName nvarchar(30),
+@ProductDescription nvarchar(max),
+@ProductImage nvarchar(255),
+@ProductPrice numeric(10,2)=null,
+@CategoryID int
+as
+begin
+	insert into Products([Dealer ID],[Product name],[Product description],[Product image],[Product price],[Product status])
+	values(@DealerID,@ProductName,@ProductDescription,@ProductImage,@ProductPrice,'Registered')
+	insert into [Product_Category]
+	values(IDENT_CURRENT('Products'), @CategoryID)
+end
+go
+
+-- за създаване на категория
+create procedure create_category
+@CategoryName nvarchar(30),
+@CategoryDescription nvarchar(max),
+@msg int output
+as
+begin
+	if exists(select [Category name] from Categories where [Category name] = @CategoryName)
+	begin
+		set @msg = -1
+	end
+	else
+	begin
+	insert into Categories
+	values(@CategoryName, @CategoryDescription)
+	set @msg = 1
+	end
+end
+go
