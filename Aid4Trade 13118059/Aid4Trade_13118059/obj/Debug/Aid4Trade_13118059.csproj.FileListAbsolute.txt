@@ -1,0 +1,244 @@
+C:\Users\Bl3iD\Desktop\Дипломна работа - 13118059\Aid4Trade_13118059\Aid4Trade_13118059\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+C:\Users\Bl3iD\Desktop\Дипломна работа - 13118059\Aid4Trade_13118059\Aid4Trade_13118059\bin\roslyn\Microsoft.CodeAnalysis.dll
+C:\Users\Bl3iD\Desktop\Дипломна работа - 13118059\Aid4Trade_13118059\Aid4Trade_13118059\bin\roslyn\System.Collections.Immutable.dll
+C:\Users\Bl3iD\Desktop\Дипломна работа - 13118059\Aid4Trade_13118059\Aid4Trade_13118059\bin\roslyn\System.Reflection.Metadata.dll
+C:\Users\Bl3iD\Desktop\Дипломна работа - 13118059\Aid4Trade_13118059\Aid4Trade_13118059\bin\roslyn\VBCSCompiler.exe
+C:\Users\Bl3iD\Desktop\Дипломна работа - 13118059\Aid4Trade_13118059\Aid4Trade_13118059\bin\ApplicationInsights.config
+C:\Users\Bl3iD\Desktop\Дипломна работа - 13118059\Aid4Trade_13118059\Aid4Trade_13118059\bin\roslyn\csc.exe
+C:\Users\Bl3iD\Desktop\Дипломна работа - 13118059\Aid4Trade_13118059\Aid4Trade_13118059\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+C:\Users\Bl3iD\Desktop\Дипломна работа - 13118059\Aid4Trade_13118059\Aid4Trade_13118059\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+C:\Users\Bl3iD\Desktop\Дипломна работа - 13118059\Aid4Trade_13118059\Aid4Trade_13118059\bin\roslyn\Microsoft.CSharp.Core.targets
+C:\Users\Bl3iD\Desktop\Дипломна работа - 13118059\Aid4Trade_13118059\Aid4Trade_13118059\bin\roslyn\Microsoft.VisualBasic.Core.targets
+C:\Users\Bl3iD\Desktop\Дипломна работа - 13118059\Aid4Trade_13118059\Aid4Trade_13118059\bin\roslyn\vbc.exe
+C:\Users\Bl3iD\Desktop\Дипломна работа - 13118059\Aid4Trade_13118059\Aid4Trade_13118059\bin\roslyn\VBCSCompiler.exe.config
+C:\Users\Bl3iD\Desktop\Дипломна работа - 13118059\Aid4Trade_13118059\Aid4Trade_13118059\bin\Aid4Trade_13118059.dll.config
+C:\Users\Bl3iD\Desktop\Дипломна работа - 13118059\Aid4Trade_13118059\Aid4Trade_13118059\bin\Aid4Trade_13118059.dll
+C:\Users\Bl3iD\Desktop\Дипломна работа - 13118059\Aid4Trade_13118059\Aid4Trade_13118059\bin\Aid4Trade_13118059.pdb
+C:\Users\Bl3iD\Desktop\Дипломна работа - 13118059\Aid4Trade_13118059\Aid4Trade_13118059\bin\Antlr3.Runtime.dll
+C:\Users\Bl3iD\Desktop\Дипломна работа - 13118059\Aid4Trade_13118059\Aid4Trade_13118059\bin\AspNet.ScriptManager.bootstrap.dll
+C:\Users\Bl3iD\Desktop\Дипломна работа - 13118059\Aid4Trade_13118059\Aid4Trade_13118059\bin\AspNet.ScriptManager.jQuery.dll
+C:\Users\Bl3iD\Desktop\Дипломна работа - 13118059\Aid4Trade_13118059\Aid4Trade_13118059\bin\Microsoft.AI.Agent.Intercept.dll
+C:\Users\Bl3iD\Desktop\Дипломна работа - 13118059\Aid4Trade_13118059\Aid4Trade_13118059\bin\Microsoft.AI.DependencyCollector.dll
+C:\Users\Bl3iD\Desktop\Дипломна работа - 13118059\Aid4Trade_13118059\Aid4Trade_13118059\bin\Microsoft.AI.PerfCounterCollector.dll
+C:\Users\Bl3iD\Desktop\Дипломна работа - 13118059\Aid4Trade_13118059\Aid4Trade_13118059\bin\Microsoft.AI.ServerTelemetryChannel.dll
+C:\Users\Bl3iD\Desktop\Дипломна работа - 13118059\Aid4Trade_13118059\Aid4Trade_13118059\bin\Microsoft.AI.Web.dll
+C:\Users\Bl3iD\Desktop\Дипломна работа - 13118059\Aid4Trade_13118059\Aid4Trade_13118059\bin\Microsoft.AI.WindowsServer.dll
+C:\Users\Bl3iD\Desktop\Дипломна работа - 13118059\Aid4Trade_13118059\Aid4Trade_13118059\bin\Microsoft.ApplicationInsights.dll
+C:\Users\Bl3iD\Desktop\Дипломна работа - 13118059\Aid4Trade_13118059\Aid4Trade_13118059\bin\Microsoft.AspNet.FriendlyUrls.dll
+C:\Users\Bl3iD\Desktop\Дипломна работа - 13118059\Aid4Trade_13118059\Aid4Trade_13118059\bin\Microsoft.AspNet.Web.Optimization.WebForms.dll
+C:\Users\Bl3iD\Desktop\Дипломна работа - 13118059\Aid4Trade_13118059\Aid4Trade_13118059\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+C:\Users\Bl3iD\Desktop\Дипломна работа - 13118059\Aid4Trade_13118059\Aid4Trade_13118059\bin\Microsoft.ScriptManager.MSAjax.dll
+C:\Users\Bl3iD\Desktop\Дипломна работа - 13118059\Aid4Trade_13118059\Aid4Trade_13118059\bin\Microsoft.ScriptManager.WebForms.dll
+C:\Users\Bl3iD\Desktop\Дипломна работа - 13118059\Aid4Trade_13118059\Aid4Trade_13118059\bin\Microsoft.Web.Infrastructure.dll
+C:\Users\Bl3iD\Desktop\Дипломна работа - 13118059\Aid4Trade_13118059\Aid4Trade_13118059\bin\Newtonsoft.Json.dll
+C:\Users\Bl3iD\Desktop\Дипломна работа - 13118059\Aid4Trade_13118059\Aid4Trade_13118059\bin\System.Web.Optimization.dll
+C:\Users\Bl3iD\Desktop\Дипломна работа - 13118059\Aid4Trade_13118059\Aid4Trade_13118059\bin\WebGrease.dll
+C:\Users\Bl3iD\Desktop\Дипломна работа - 13118059\Aid4Trade_13118059\Aid4Trade_13118059\bin\Microsoft.AI.DependencyCollector.xml
+C:\Users\Bl3iD\Desktop\Дипломна работа - 13118059\Aid4Trade_13118059\Aid4Trade_13118059\bin\Microsoft.AI.ServerTelemetryChannel.xml
+C:\Users\Bl3iD\Desktop\Дипломна работа - 13118059\Aid4Trade_13118059\Aid4Trade_13118059\bin\Microsoft.AI.Web.xml
+C:\Users\Bl3iD\Desktop\Дипломна работа - 13118059\Aid4Trade_13118059\Aid4Trade_13118059\bin\Microsoft.AI.WindowsServer.xml
+C:\Users\Bl3iD\Desktop\Дипломна работа - 13118059\Aid4Trade_13118059\Aid4Trade_13118059\bin\Microsoft.ApplicationInsights.xml
+C:\Users\Bl3iD\Desktop\Дипломна работа - 13118059\Aid4Trade_13118059\Aid4Trade_13118059\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+C:\Users\Bl3iD\Desktop\Дипломна работа - 13118059\Aid4Trade_13118059\Aid4Trade_13118059\bin\System.Web.Optimization.xml
+C:\Users\Bl3iD\Desktop\Дипломна работа - 13118059\Aid4Trade_13118059\Aid4Trade_13118059\bin\Antlr3.Runtime.pdb
+C:\Users\Bl3iD\Desktop\Дипломна работа - 13118059\Aid4Trade_13118059\Aid4Trade_13118059\bin\Newtonsoft.Json.xml
+C:\Users\Bl3iD\Desktop\Дипломна работа - 13118059\Aid4Trade_13118059\Aid4Trade_13118059\bin\Microsoft.AspNet.FriendlyUrls.xml
+C:\Users\Bl3iD\Desktop\Дипломна работа - 13118059\Aid4Trade_13118059\Aid4Trade_13118059\obj\Debug\Aid4Trade_13118059.dll
+C:\Users\Bl3iD\Desktop\Дипломна работа - 13118059\Aid4Trade_13118059\Aid4Trade_13118059\obj\Debug\Aid4Trade_13118059.pdb
+C:\Users\Bl3iD\Desktop\Дипломна работа - 13118059\Aid4Trade_13118059\Aid4Trade_13118059\obj\Debug\Aid4Trade_13118059.csprojResolveAssemblyReference.cache
+C:\Users\Bl3iD\Desktop\Дипломна работа - Димитър Христов (13118059)\Aid4Trade_13118059\Aid4Trade_13118059\bin\ApplicationInsights.config
+C:\Users\Bl3iD\Desktop\Дипломна работа - Димитър Христов (13118059)\Aid4Trade_13118059\Aid4Trade_13118059\bin\roslyn\csc.exe
+C:\Users\Bl3iD\Desktop\Дипломна работа - Димитър Христов (13118059)\Aid4Trade_13118059\Aid4Trade_13118059\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+C:\Users\Bl3iD\Desktop\Дипломна работа - Димитър Христов (13118059)\Aid4Trade_13118059\Aid4Trade_13118059\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+C:\Users\Bl3iD\Desktop\Дипломна работа - Димитър Христов (13118059)\Aid4Trade_13118059\Aid4Trade_13118059\bin\roslyn\Microsoft.CodeAnalysis.dll
+C:\Users\Bl3iD\Desktop\Дипломна работа - Димитър Христов (13118059)\Aid4Trade_13118059\Aid4Trade_13118059\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+C:\Users\Bl3iD\Desktop\Дипломна работа - Димитър Христов (13118059)\Aid4Trade_13118059\Aid4Trade_13118059\bin\roslyn\Microsoft.CSharp.Core.targets
+C:\Users\Bl3iD\Desktop\Дипломна работа - Димитър Христов (13118059)\Aid4Trade_13118059\Aid4Trade_13118059\bin\roslyn\Microsoft.VisualBasic.Core.targets
+C:\Users\Bl3iD\Desktop\Дипломна работа - Димитър Христов (13118059)\Aid4Trade_13118059\Aid4Trade_13118059\bin\roslyn\System.Collections.Immutable.dll
+C:\Users\Bl3iD\Desktop\Дипломна работа - Димитър Христов (13118059)\Aid4Trade_13118059\Aid4Trade_13118059\bin\roslyn\System.Reflection.Metadata.dll
+C:\Users\Bl3iD\Desktop\Дипломна работа - Димитър Христов (13118059)\Aid4Trade_13118059\Aid4Trade_13118059\bin\roslyn\vbc.exe
+C:\Users\Bl3iD\Desktop\Дипломна работа - Димитър Христов (13118059)\Aid4Trade_13118059\Aid4Trade_13118059\bin\roslyn\VBCSCompiler.exe
+C:\Users\Bl3iD\Desktop\Дипломна работа - Димитър Христов (13118059)\Aid4Trade_13118059\Aid4Trade_13118059\bin\roslyn\VBCSCompiler.exe.config
+C:\Users\Bl3iD\Desktop\Дипломна работа - Димитър Христов (13118059)\Aid4Trade_13118059\Aid4Trade_13118059\bin\Aid4Trade_13118059.dll.config
+C:\Users\Bl3iD\Desktop\Дипломна работа - Димитър Христов (13118059)\Aid4Trade_13118059\Aid4Trade_13118059\bin\Aid4Trade_13118059.dll
+C:\Users\Bl3iD\Desktop\Дипломна работа - Димитър Христов (13118059)\Aid4Trade_13118059\Aid4Trade_13118059\bin\Aid4Trade_13118059.pdb
+C:\Users\Bl3iD\Desktop\Дипломна работа - Димитър Христов (13118059)\Aid4Trade_13118059\Aid4Trade_13118059\bin\Antlr3.Runtime.dll
+C:\Users\Bl3iD\Desktop\Дипломна работа - Димитър Христов (13118059)\Aid4Trade_13118059\Aid4Trade_13118059\bin\AspNet.ScriptManager.bootstrap.dll
+C:\Users\Bl3iD\Desktop\Дипломна работа - Димитър Христов (13118059)\Aid4Trade_13118059\Aid4Trade_13118059\bin\AspNet.ScriptManager.jQuery.dll
+C:\Users\Bl3iD\Desktop\Дипломна работа - Димитър Христов (13118059)\Aid4Trade_13118059\Aid4Trade_13118059\bin\Microsoft.AI.Agent.Intercept.dll
+C:\Users\Bl3iD\Desktop\Дипломна работа - Димитър Христов (13118059)\Aid4Trade_13118059\Aid4Trade_13118059\bin\Microsoft.AI.DependencyCollector.dll
+C:\Users\Bl3iD\Desktop\Дипломна работа - Димитър Христов (13118059)\Aid4Trade_13118059\Aid4Trade_13118059\bin\Microsoft.AI.PerfCounterCollector.dll
+C:\Users\Bl3iD\Desktop\Дипломна работа - Димитър Христов (13118059)\Aid4Trade_13118059\Aid4Trade_13118059\bin\Microsoft.AI.ServerTelemetryChannel.dll
+C:\Users\Bl3iD\Desktop\Дипломна работа - Димитър Христов (13118059)\Aid4Trade_13118059\Aid4Trade_13118059\bin\Microsoft.AI.Web.dll
+C:\Users\Bl3iD\Desktop\Дипломна работа - Димитър Христов (13118059)\Aid4Trade_13118059\Aid4Trade_13118059\bin\Microsoft.AI.WindowsServer.dll
+C:\Users\Bl3iD\Desktop\Дипломна работа - Димитър Христов (13118059)\Aid4Trade_13118059\Aid4Trade_13118059\bin\Microsoft.ApplicationInsights.dll
+C:\Users\Bl3iD\Desktop\Дипломна работа - Димитър Христов (13118059)\Aid4Trade_13118059\Aid4Trade_13118059\bin\Microsoft.AspNet.FriendlyUrls.dll
+C:\Users\Bl3iD\Desktop\Дипломна работа - Димитър Христов (13118059)\Aid4Trade_13118059\Aid4Trade_13118059\bin\Microsoft.AspNet.Web.Optimization.WebForms.dll
+C:\Users\Bl3iD\Desktop\Дипломна работа - Димитър Христов (13118059)\Aid4Trade_13118059\Aid4Trade_13118059\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+C:\Users\Bl3iD\Desktop\Дипломна работа - Димитър Христов (13118059)\Aid4Trade_13118059\Aid4Trade_13118059\bin\Microsoft.ScriptManager.MSAjax.dll
+C:\Users\Bl3iD\Desktop\Дипломна работа - Димитър Христов (13118059)\Aid4Trade_13118059\Aid4Trade_13118059\bin\Microsoft.ScriptManager.WebForms.dll
+C:\Users\Bl3iD\Desktop\Дипломна работа - Димитър Христов (13118059)\Aid4Trade_13118059\Aid4Trade_13118059\bin\Microsoft.Web.Infrastructure.dll
+C:\Users\Bl3iD\Desktop\Дипломна работа - Димитър Христов (13118059)\Aid4Trade_13118059\Aid4Trade_13118059\bin\Newtonsoft.Json.dll
+C:\Users\Bl3iD\Desktop\Дипломна работа - Димитър Христов (13118059)\Aid4Trade_13118059\Aid4Trade_13118059\bin\System.Web.Optimization.dll
+C:\Users\Bl3iD\Desktop\Дипломна работа - Димитър Христов (13118059)\Aid4Trade_13118059\Aid4Trade_13118059\bin\WebGrease.dll
+C:\Users\Bl3iD\Desktop\Дипломна работа - Димитър Христов (13118059)\Aid4Trade_13118059\Aid4Trade_13118059\bin\Microsoft.AI.DependencyCollector.xml
+C:\Users\Bl3iD\Desktop\Дипломна работа - Димитър Христов (13118059)\Aid4Trade_13118059\Aid4Trade_13118059\bin\Microsoft.AI.ServerTelemetryChannel.xml
+C:\Users\Bl3iD\Desktop\Дипломна работа - Димитър Христов (13118059)\Aid4Trade_13118059\Aid4Trade_13118059\bin\Microsoft.AI.Web.xml
+C:\Users\Bl3iD\Desktop\Дипломна работа - Димитър Христов (13118059)\Aid4Trade_13118059\Aid4Trade_13118059\bin\Microsoft.AI.WindowsServer.xml
+C:\Users\Bl3iD\Desktop\Дипломна работа - Димитър Христов (13118059)\Aid4Trade_13118059\Aid4Trade_13118059\bin\Microsoft.ApplicationInsights.xml
+C:\Users\Bl3iD\Desktop\Дипломна работа - Димитър Христов (13118059)\Aid4Trade_13118059\Aid4Trade_13118059\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+C:\Users\Bl3iD\Desktop\Дипломна работа - Димитър Христов (13118059)\Aid4Trade_13118059\Aid4Trade_13118059\bin\System.Web.Optimization.xml
+C:\Users\Bl3iD\Desktop\Дипломна работа - Димитър Христов (13118059)\Aid4Trade_13118059\Aid4Trade_13118059\bin\Antlr3.Runtime.pdb
+C:\Users\Bl3iD\Desktop\Дипломна работа - Димитър Христов (13118059)\Aid4Trade_13118059\Aid4Trade_13118059\bin\Newtonsoft.Json.xml
+C:\Users\Bl3iD\Desktop\Дипломна работа - Димитър Христов (13118059)\Aid4Trade_13118059\Aid4Trade_13118059\bin\Microsoft.AspNet.FriendlyUrls.xml
+C:\Users\Bl3iD\Desktop\Дипломна работа - Димитър Христов (13118059)\Aid4Trade_13118059\Aid4Trade_13118059\obj\Debug\Aid4Trade_13118059.csprojResolveAssemblyReference.cache
+C:\Users\Bl3iD\Desktop\Дипломна работа - Димитър Христов (13118059)\Aid4Trade_13118059\Aid4Trade_13118059\obj\Debug\Aid4Trade_13118059.dll
+C:\Users\Bl3iD\Desktop\Дипломна работа - Димитър Христов (13118059)\Aid4Trade_13118059\Aid4Trade_13118059\obj\Debug\Aid4Trade_13118059.pdb
+C:\Users\Bl3iD\Desktop\Дипломна работа - Димитър Христов (13118059) (за представяне)\Aid4Trade_13118059\Aid4Trade_13118059\bin\ApplicationInsights.config
+C:\Users\Bl3iD\Desktop\Дипломна работа - Димитър Христов (13118059) (за представяне)\Aid4Trade_13118059\Aid4Trade_13118059\bin\roslyn\csc.exe
+C:\Users\Bl3iD\Desktop\Дипломна работа - Димитър Христов (13118059) (за представяне)\Aid4Trade_13118059\Aid4Trade_13118059\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+C:\Users\Bl3iD\Desktop\Дипломна работа - Димитър Христов (13118059) (за представяне)\Aid4Trade_13118059\Aid4Trade_13118059\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+C:\Users\Bl3iD\Desktop\Дипломна работа - Димитър Христов (13118059) (за представяне)\Aid4Trade_13118059\Aid4Trade_13118059\bin\roslyn\Microsoft.CodeAnalysis.dll
+C:\Users\Bl3iD\Desktop\Дипломна работа - Димитър Христов (13118059) (за представяне)\Aid4Trade_13118059\Aid4Trade_13118059\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+C:\Users\Bl3iD\Desktop\Дипломна работа - Димитър Христов (13118059) (за представяне)\Aid4Trade_13118059\Aid4Trade_13118059\bin\roslyn\Microsoft.CSharp.Core.targets
+C:\Users\Bl3iD\Desktop\Дипломна работа - Димитър Христов (13118059) (за представяне)\Aid4Trade_13118059\Aid4Trade_13118059\bin\roslyn\Microsoft.VisualBasic.Core.targets
+C:\Users\Bl3iD\Desktop\Дипломна работа - Димитър Христов (13118059) (за представяне)\Aid4Trade_13118059\Aid4Trade_13118059\bin\roslyn\System.Collections.Immutable.dll
+C:\Users\Bl3iD\Desktop\Дипломна работа - Димитър Христов (13118059) (за представяне)\Aid4Trade_13118059\Aid4Trade_13118059\bin\roslyn\System.Reflection.Metadata.dll
+C:\Users\Bl3iD\Desktop\Дипломна работа - Димитър Христов (13118059) (за представяне)\Aid4Trade_13118059\Aid4Trade_13118059\bin\roslyn\vbc.exe
+C:\Users\Bl3iD\Desktop\Дипломна работа - Димитър Христов (13118059) (за представяне)\Aid4Trade_13118059\Aid4Trade_13118059\bin\roslyn\VBCSCompiler.exe
+C:\Users\Bl3iD\Desktop\Дипломна работа - Димитър Христов (13118059) (за представяне)\Aid4Trade_13118059\Aid4Trade_13118059\bin\roslyn\VBCSCompiler.exe.config
+C:\Users\Bl3iD\Desktop\Дипломна работа - Димитър Христов (13118059) (за представяне)\Aid4Trade_13118059\Aid4Trade_13118059\bin\Aid4Trade_13118059.dll.config
+C:\Users\Bl3iD\Desktop\Дипломна работа - Димитър Христов (13118059) (за представяне)\Aid4Trade_13118059\Aid4Trade_13118059\bin\Aid4Trade_13118059.dll
+C:\Users\Bl3iD\Desktop\Дипломна работа - Димитър Христов (13118059) (за представяне)\Aid4Trade_13118059\Aid4Trade_13118059\bin\Aid4Trade_13118059.pdb
+C:\Users\Bl3iD\Desktop\Дипломна работа - Димитър Христов (13118059) (за представяне)\Aid4Trade_13118059\Aid4Trade_13118059\bin\Antlr3.Runtime.dll
+C:\Users\Bl3iD\Desktop\Дипломна работа - Димитър Христов (13118059) (за представяне)\Aid4Trade_13118059\Aid4Trade_13118059\bin\AspNet.ScriptManager.bootstrap.dll
+C:\Users\Bl3iD\Desktop\Дипломна работа - Димитър Христов (13118059) (за представяне)\Aid4Trade_13118059\Aid4Trade_13118059\bin\AspNet.ScriptManager.jQuery.dll
+C:\Users\Bl3iD\Desktop\Дипломна работа - Димитър Христов (13118059) (за представяне)\Aid4Trade_13118059\Aid4Trade_13118059\bin\Microsoft.AI.Agent.Intercept.dll
+C:\Users\Bl3iD\Desktop\Дипломна работа - Димитър Христов (13118059) (за представяне)\Aid4Trade_13118059\Aid4Trade_13118059\bin\Microsoft.AI.DependencyCollector.dll
+C:\Users\Bl3iD\Desktop\Дипломна работа - Димитър Христов (13118059) (за представяне)\Aid4Trade_13118059\Aid4Trade_13118059\bin\Microsoft.AI.PerfCounterCollector.dll
+C:\Users\Bl3iD\Desktop\Дипломна работа - Димитър Христов (13118059) (за представяне)\Aid4Trade_13118059\Aid4Trade_13118059\bin\Microsoft.AI.ServerTelemetryChannel.dll
+C:\Users\Bl3iD\Desktop\Дипломна работа - Димитър Христов (13118059) (за представяне)\Aid4Trade_13118059\Aid4Trade_13118059\bin\Microsoft.AI.Web.dll
+C:\Users\Bl3iD\Desktop\Дипломна работа - Димитър Христов (13118059) (за представяне)\Aid4Trade_13118059\Aid4Trade_13118059\bin\Microsoft.AI.WindowsServer.dll
+C:\Users\Bl3iD\Desktop\Дипломна работа - Димитър Христов (13118059) (за представяне)\Aid4Trade_13118059\Aid4Trade_13118059\bin\Microsoft.ApplicationInsights.dll
+C:\Users\Bl3iD\Desktop\Дипломна работа - Димитър Христов (13118059) (за представяне)\Aid4Trade_13118059\Aid4Trade_13118059\bin\Microsoft.AspNet.FriendlyUrls.dll
+C:\Users\Bl3iD\Desktop\Дипломна работа - Димитър Христов (13118059) (за представяне)\Aid4Trade_13118059\Aid4Trade_13118059\bin\Microsoft.AspNet.Web.Optimization.WebForms.dll
+C:\Users\Bl3iD\Desktop\Дипломна работа - Димитър Христов (13118059) (за представяне)\Aid4Trade_13118059\Aid4Trade_13118059\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+C:\Users\Bl3iD\Desktop\Дипломна работа - Димитър Христов (13118059) (за представяне)\Aid4Trade_13118059\Aid4Trade_13118059\bin\Microsoft.ScriptManager.MSAjax.dll
+C:\Users\Bl3iD\Desktop\Дипломна работа - Димитър Христов (13118059) (за представяне)\Aid4Trade_13118059\Aid4Trade_13118059\bin\Microsoft.ScriptManager.WebForms.dll
+C:\Users\Bl3iD\Desktop\Дипломна работа - Димитър Христов (13118059) (за представяне)\Aid4Trade_13118059\Aid4Trade_13118059\bin\Microsoft.Web.Infrastructure.dll
+C:\Users\Bl3iD\Desktop\Дипломна работа - Димитър Христов (13118059) (за представяне)\Aid4Trade_13118059\Aid4Trade_13118059\bin\Newtonsoft.Json.dll
+C:\Users\Bl3iD\Desktop\Дипломна работа - Димитър Христов (13118059) (за представяне)\Aid4Trade_13118059\Aid4Trade_13118059\bin\System.Web.Optimization.dll
+C:\Users\Bl3iD\Desktop\Дипломна работа - Димитър Христов (13118059) (за представяне)\Aid4Trade_13118059\Aid4Trade_13118059\bin\WebGrease.dll
+C:\Users\Bl3iD\Desktop\Дипломна работа - Димитър Христов (13118059) (за представяне)\Aid4Trade_13118059\Aid4Trade_13118059\bin\Microsoft.AI.DependencyCollector.xml
+C:\Users\Bl3iD\Desktop\Дипломна работа - Димитър Христов (13118059) (за представяне)\Aid4Trade_13118059\Aid4Trade_13118059\bin\Microsoft.AI.ServerTelemetryChannel.xml
+C:\Users\Bl3iD\Desktop\Дипломна работа - Димитър Христов (13118059) (за представяне)\Aid4Trade_13118059\Aid4Trade_13118059\bin\Microsoft.AI.Web.xml
+C:\Users\Bl3iD\Desktop\Дипломна работа - Димитър Христов (13118059) (за представяне)\Aid4Trade_13118059\Aid4Trade_13118059\bin\Microsoft.AI.WindowsServer.xml
+C:\Users\Bl3iD\Desktop\Дипломна работа - Димитър Христов (13118059) (за представяне)\Aid4Trade_13118059\Aid4Trade_13118059\bin\Microsoft.ApplicationInsights.xml
+C:\Users\Bl3iD\Desktop\Дипломна работа - Димитър Христов (13118059) (за представяне)\Aid4Trade_13118059\Aid4Trade_13118059\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+C:\Users\Bl3iD\Desktop\Дипломна работа - Димитър Христов (13118059) (за представяне)\Aid4Trade_13118059\Aid4Trade_13118059\bin\System.Web.Optimization.xml
+C:\Users\Bl3iD\Desktop\Дипломна работа - Димитър Христов (13118059) (за представяне)\Aid4Trade_13118059\Aid4Trade_13118059\bin\Antlr3.Runtime.pdb
+C:\Users\Bl3iD\Desktop\Дипломна работа - Димитър Христов (13118059) (за представяне)\Aid4Trade_13118059\Aid4Trade_13118059\bin\Newtonsoft.Json.xml
+C:\Users\Bl3iD\Desktop\Дипломна работа - Димитър Христов (13118059) (за представяне)\Aid4Trade_13118059\Aid4Trade_13118059\bin\Microsoft.AspNet.FriendlyUrls.xml
+C:\Users\Bl3iD\Desktop\Дипломна работа - Димитър Христов (13118059) (за представяне)\Aid4Trade_13118059\Aid4Trade_13118059\obj\Debug\Aid4Trade_13118059.csprojResolveAssemblyReference.cache
+C:\Users\Bl3iD\Desktop\Дипломна работа - Димитър Христов (13118059) (за представяне)\Aid4Trade_13118059\Aid4Trade_13118059\obj\Debug\Aid4Trade_13118059.dll
+C:\Users\Bl3iD\Desktop\Дипломна работа - Димитър Христов (13118059) (за представяне)\Aid4Trade_13118059\Aid4Trade_13118059\obj\Debug\Aid4Trade_13118059.pdb
+C:\Users\Bl3iD\Desktop\Aid4Trade_13118059\Aid4Trade_13118059\bin\ApplicationInsights.config
+C:\Users\Bl3iD\Desktop\Aid4Trade_13118059\Aid4Trade_13118059\bin\roslyn\csc.exe
+C:\Users\Bl3iD\Desktop\Aid4Trade_13118059\Aid4Trade_13118059\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+C:\Users\Bl3iD\Desktop\Aid4Trade_13118059\Aid4Trade_13118059\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+C:\Users\Bl3iD\Desktop\Aid4Trade_13118059\Aid4Trade_13118059\bin\roslyn\Microsoft.CodeAnalysis.dll
+C:\Users\Bl3iD\Desktop\Aid4Trade_13118059\Aid4Trade_13118059\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+C:\Users\Bl3iD\Desktop\Aid4Trade_13118059\Aid4Trade_13118059\bin\roslyn\Microsoft.CSharp.Core.targets
+C:\Users\Bl3iD\Desktop\Aid4Trade_13118059\Aid4Trade_13118059\bin\roslyn\Microsoft.VisualBasic.Core.targets
+C:\Users\Bl3iD\Desktop\Aid4Trade_13118059\Aid4Trade_13118059\bin\roslyn\System.Collections.Immutable.dll
+C:\Users\Bl3iD\Desktop\Aid4Trade_13118059\Aid4Trade_13118059\bin\roslyn\System.Reflection.Metadata.dll
+C:\Users\Bl3iD\Desktop\Aid4Trade_13118059\Aid4Trade_13118059\bin\roslyn\vbc.exe
+C:\Users\Bl3iD\Desktop\Aid4Trade_13118059\Aid4Trade_13118059\bin\roslyn\VBCSCompiler.exe
+C:\Users\Bl3iD\Desktop\Aid4Trade_13118059\Aid4Trade_13118059\bin\roslyn\VBCSCompiler.exe.config
+C:\Users\Bl3iD\Desktop\Aid4Trade_13118059\Aid4Trade_13118059\bin\Aid4Trade_13118059.dll.config
+C:\Users\Bl3iD\Desktop\Aid4Trade_13118059\Aid4Trade_13118059\bin\Aid4Trade_13118059.dll
+C:\Users\Bl3iD\Desktop\Aid4Trade_13118059\Aid4Trade_13118059\bin\Aid4Trade_13118059.pdb
+C:\Users\Bl3iD\Desktop\Aid4Trade_13118059\Aid4Trade_13118059\bin\Antlr3.Runtime.dll
+C:\Users\Bl3iD\Desktop\Aid4Trade_13118059\Aid4Trade_13118059\bin\AspNet.ScriptManager.bootstrap.dll
+C:\Users\Bl3iD\Desktop\Aid4Trade_13118059\Aid4Trade_13118059\bin\AspNet.ScriptManager.jQuery.dll
+C:\Users\Bl3iD\Desktop\Aid4Trade_13118059\Aid4Trade_13118059\bin\Microsoft.AI.Agent.Intercept.dll
+C:\Users\Bl3iD\Desktop\Aid4Trade_13118059\Aid4Trade_13118059\bin\Microsoft.AI.DependencyCollector.dll
+C:\Users\Bl3iD\Desktop\Aid4Trade_13118059\Aid4Trade_13118059\bin\Microsoft.AI.PerfCounterCollector.dll
+C:\Users\Bl3iD\Desktop\Aid4Trade_13118059\Aid4Trade_13118059\bin\Microsoft.AI.ServerTelemetryChannel.dll
+C:\Users\Bl3iD\Desktop\Aid4Trade_13118059\Aid4Trade_13118059\bin\Microsoft.AI.Web.dll
+C:\Users\Bl3iD\Desktop\Aid4Trade_13118059\Aid4Trade_13118059\bin\Microsoft.AI.WindowsServer.dll
+C:\Users\Bl3iD\Desktop\Aid4Trade_13118059\Aid4Trade_13118059\bin\Microsoft.ApplicationInsights.dll
+C:\Users\Bl3iD\Desktop\Aid4Trade_13118059\Aid4Trade_13118059\bin\Microsoft.AspNet.FriendlyUrls.dll
+C:\Users\Bl3iD\Desktop\Aid4Trade_13118059\Aid4Trade_13118059\bin\Microsoft.AspNet.Web.Optimization.WebForms.dll
+C:\Users\Bl3iD\Desktop\Aid4Trade_13118059\Aid4Trade_13118059\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+C:\Users\Bl3iD\Desktop\Aid4Trade_13118059\Aid4Trade_13118059\bin\Microsoft.ScriptManager.MSAjax.dll
+C:\Users\Bl3iD\Desktop\Aid4Trade_13118059\Aid4Trade_13118059\bin\Microsoft.ScriptManager.WebForms.dll
+C:\Users\Bl3iD\Desktop\Aid4Trade_13118059\Aid4Trade_13118059\bin\Microsoft.Web.Infrastructure.dll
+C:\Users\Bl3iD\Desktop\Aid4Trade_13118059\Aid4Trade_13118059\bin\Newtonsoft.Json.dll
+C:\Users\Bl3iD\Desktop\Aid4Trade_13118059\Aid4Trade_13118059\bin\System.Web.Optimization.dll
+C:\Users\Bl3iD\Desktop\Aid4Trade_13118059\Aid4Trade_13118059\bin\WebGrease.dll
+C:\Users\Bl3iD\Desktop\Aid4Trade_13118059\Aid4Trade_13118059\bin\Microsoft.AI.DependencyCollector.xml
+C:\Users\Bl3iD\Desktop\Aid4Trade_13118059\Aid4Trade_13118059\bin\Microsoft.AI.ServerTelemetryChannel.xml
+C:\Users\Bl3iD\Desktop\Aid4Trade_13118059\Aid4Trade_13118059\bin\Microsoft.AI.Web.xml
+C:\Users\Bl3iD\Desktop\Aid4Trade_13118059\Aid4Trade_13118059\bin\Microsoft.AI.WindowsServer.xml
+C:\Users\Bl3iD\Desktop\Aid4Trade_13118059\Aid4Trade_13118059\bin\Microsoft.ApplicationInsights.xml
+C:\Users\Bl3iD\Desktop\Aid4Trade_13118059\Aid4Trade_13118059\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+C:\Users\Bl3iD\Desktop\Aid4Trade_13118059\Aid4Trade_13118059\bin\System.Web.Optimization.xml
+C:\Users\Bl3iD\Desktop\Aid4Trade_13118059\Aid4Trade_13118059\bin\Antlr3.Runtime.pdb
+C:\Users\Bl3iD\Desktop\Aid4Trade_13118059\Aid4Trade_13118059\bin\Newtonsoft.Json.xml
+C:\Users\Bl3iD\Desktop\Aid4Trade_13118059\Aid4Trade_13118059\bin\Microsoft.AspNet.FriendlyUrls.xml
+C:\Users\Bl3iD\Desktop\Aid4Trade_13118059\Aid4Trade_13118059\obj\Debug\Aid4Trade_13118059.csproj.AssemblyReference.cache
+C:\Users\Bl3iD\Desktop\Aid4Trade_13118059\Aid4Trade_13118059\obj\Debug\Aid4Trade_13118059.csproj.CoreCompileInputs.cache
+C:\Users\Bl3iD\Desktop\Aid4Trade_13118059\Aid4Trade_13118059\obj\Debug\Aid4Trade_13118059.csproj.CopyComplete
+C:\Users\Bl3iD\Desktop\Aid4Trade_13118059\Aid4Trade_13118059\obj\Debug\Aid4Trade_13118059.dll
+C:\Users\Bl3iD\Desktop\Aid4Trade_13118059\Aid4Trade_13118059\obj\Debug\Aid4Trade_13118059.pdb
+C:\Users\Bl3iD\Desktop\projects_for_GitHub\Aid4Trade_13118059\Aid4Trade_13118059\bin\ApplicationInsights.config
+C:\Users\Bl3iD\Desktop\projects_for_GitHub\Aid4Trade_13118059\Aid4Trade_13118059\bin\roslyn\csc.exe
+C:\Users\Bl3iD\Desktop\projects_for_GitHub\Aid4Trade_13118059\Aid4Trade_13118059\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+C:\Users\Bl3iD\Desktop\projects_for_GitHub\Aid4Trade_13118059\Aid4Trade_13118059\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+C:\Users\Bl3iD\Desktop\projects_for_GitHub\Aid4Trade_13118059\Aid4Trade_13118059\bin\roslyn\Microsoft.CodeAnalysis.dll
+C:\Users\Bl3iD\Desktop\projects_for_GitHub\Aid4Trade_13118059\Aid4Trade_13118059\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+C:\Users\Bl3iD\Desktop\projects_for_GitHub\Aid4Trade_13118059\Aid4Trade_13118059\bin\roslyn\Microsoft.CSharp.Core.targets
+C:\Users\Bl3iD\Desktop\projects_for_GitHub\Aid4Trade_13118059\Aid4Trade_13118059\bin\roslyn\Microsoft.VisualBasic.Core.targets
+C:\Users\Bl3iD\Desktop\projects_for_GitHub\Aid4Trade_13118059\Aid4Trade_13118059\bin\roslyn\System.Collections.Immutable.dll
+C:\Users\Bl3iD\Desktop\projects_for_GitHub\Aid4Trade_13118059\Aid4Trade_13118059\bin\roslyn\System.Reflection.Metadata.dll
+C:\Users\Bl3iD\Desktop\projects_for_GitHub\Aid4Trade_13118059\Aid4Trade_13118059\bin\roslyn\vbc.exe
+C:\Users\Bl3iD\Desktop\projects_for_GitHub\Aid4Trade_13118059\Aid4Trade_13118059\bin\roslyn\VBCSCompiler.exe
+C:\Users\Bl3iD\Desktop\projects_for_GitHub\Aid4Trade_13118059\Aid4Trade_13118059\bin\roslyn\VBCSCompiler.exe.config
+C:\Users\Bl3iD\Desktop\projects_for_GitHub\Aid4Trade_13118059\Aid4Trade_13118059\bin\Aid4Trade_13118059.dll.config
+C:\Users\Bl3iD\Desktop\projects_for_GitHub\Aid4Trade_13118059\Aid4Trade_13118059\bin\Aid4Trade_13118059.dll
+C:\Users\Bl3iD\Desktop\projects_for_GitHub\Aid4Trade_13118059\Aid4Trade_13118059\bin\Aid4Trade_13118059.pdb
+C:\Users\Bl3iD\Desktop\projects_for_GitHub\Aid4Trade_13118059\Aid4Trade_13118059\bin\Antlr3.Runtime.dll
+C:\Users\Bl3iD\Desktop\projects_for_GitHub\Aid4Trade_13118059\Aid4Trade_13118059\bin\AspNet.ScriptManager.bootstrap.dll
+C:\Users\Bl3iD\Desktop\projects_for_GitHub\Aid4Trade_13118059\Aid4Trade_13118059\bin\AspNet.ScriptManager.jQuery.dll
+C:\Users\Bl3iD\Desktop\projects_for_GitHub\Aid4Trade_13118059\Aid4Trade_13118059\bin\Microsoft.AI.Agent.Intercept.dll
+C:\Users\Bl3iD\Desktop\projects_for_GitHub\Aid4Trade_13118059\Aid4Trade_13118059\bin\Microsoft.AI.DependencyCollector.dll
+C:\Users\Bl3iD\Desktop\projects_for_GitHub\Aid4Trade_13118059\Aid4Trade_13118059\bin\Microsoft.AI.PerfCounterCollector.dll
+C:\Users\Bl3iD\Desktop\projects_for_GitHub\Aid4Trade_13118059\Aid4Trade_13118059\bin\Microsoft.AI.ServerTelemetryChannel.dll
+C:\Users\Bl3iD\Desktop\projects_for_GitHub\Aid4Trade_13118059\Aid4Trade_13118059\bin\Microsoft.AI.Web.dll
+C:\Users\Bl3iD\Desktop\projects_for_GitHub\Aid4Trade_13118059\Aid4Trade_13118059\bin\Microsoft.AI.WindowsServer.dll
+C:\Users\Bl3iD\Desktop\projects_for_GitHub\Aid4Trade_13118059\Aid4Trade_13118059\bin\Microsoft.ApplicationInsights.dll
+C:\Users\Bl3iD\Desktop\projects_for_GitHub\Aid4Trade_13118059\Aid4Trade_13118059\bin\Microsoft.AspNet.FriendlyUrls.dll
+C:\Users\Bl3iD\Desktop\projects_for_GitHub\Aid4Trade_13118059\Aid4Trade_13118059\bin\Microsoft.AspNet.Web.Optimization.WebForms.dll
+C:\Users\Bl3iD\Desktop\projects_for_GitHub\Aid4Trade_13118059\Aid4Trade_13118059\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+C:\Users\Bl3iD\Desktop\projects_for_GitHub\Aid4Trade_13118059\Aid4Trade_13118059\bin\Microsoft.ScriptManager.MSAjax.dll
+C:\Users\Bl3iD\Desktop\projects_for_GitHub\Aid4Trade_13118059\Aid4Trade_13118059\bin\Microsoft.ScriptManager.WebForms.dll
+C:\Users\Bl3iD\Desktop\projects_for_GitHub\Aid4Trade_13118059\Aid4Trade_13118059\bin\Microsoft.Web.Infrastructure.dll
+C:\Users\Bl3iD\Desktop\projects_for_GitHub\Aid4Trade_13118059\Aid4Trade_13118059\bin\Newtonsoft.Json.dll
+C:\Users\Bl3iD\Desktop\projects_for_GitHub\Aid4Trade_13118059\Aid4Trade_13118059\bin\System.Web.Optimization.dll
+C:\Users\Bl3iD\Desktop\projects_for_GitHub\Aid4Trade_13118059\Aid4Trade_13118059\bin\WebGrease.dll
+C:\Users\Bl3iD\Desktop\projects_for_GitHub\Aid4Trade_13118059\Aid4Trade_13118059\bin\Microsoft.AI.DependencyCollector.xml
+C:\Users\Bl3iD\Desktop\projects_for_GitHub\Aid4Trade_13118059\Aid4Trade_13118059\bin\Microsoft.AI.ServerTelemetryChannel.xml
+C:\Users\Bl3iD\Desktop\projects_for_GitHub\Aid4Trade_13118059\Aid4Trade_13118059\bin\Microsoft.AI.Web.xml
+C:\Users\Bl3iD\Desktop\projects_for_GitHub\Aid4Trade_13118059\Aid4Trade_13118059\bin\Microsoft.AI.WindowsServer.xml
+C:\Users\Bl3iD\Desktop\projects_for_GitHub\Aid4Trade_13118059\Aid4Trade_13118059\bin\Microsoft.ApplicationInsights.xml
+C:\Users\Bl3iD\Desktop\projects_for_GitHub\Aid4Trade_13118059\Aid4Trade_13118059\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+C:\Users\Bl3iD\Desktop\projects_for_GitHub\Aid4Trade_13118059\Aid4Trade_13118059\bin\System.Web.Optimization.xml
+C:\Users\Bl3iD\Desktop\projects_for_GitHub\Aid4Trade_13118059\Aid4Trade_13118059\bin\Antlr3.Runtime.pdb
+C:\Users\Bl3iD\Desktop\projects_for_GitHub\Aid4Trade_13118059\Aid4Trade_13118059\bin\Newtonsoft.Json.xml
+C:\Users\Bl3iD\Desktop\projects_for_GitHub\Aid4Trade_13118059\Aid4Trade_13118059\bin\Microsoft.AspNet.FriendlyUrls.xml
+C:\Users\Bl3iD\Desktop\projects_for_GitHub\Aid4Trade_13118059\Aid4Trade_13118059\obj\Debug\Aid4Trade_13118059.csproj.AssemblyReference.cache
+C:\Users\Bl3iD\Desktop\projects_for_GitHub\Aid4Trade_13118059\Aid4Trade_13118059\obj\Debug\Aid4Trade_13118059.csproj.CoreCompileInputs.cache
+C:\Users\Bl3iD\Desktop\projects_for_GitHub\Aid4Trade_13118059\Aid4Trade_13118059\obj\Debug\Aid4Trade_13118059.csproj.CopyComplete
+C:\Users\Bl3iD\Desktop\projects_for_GitHub\Aid4Trade_13118059\Aid4Trade_13118059\obj\Debug\Aid4Trade_13118059.dll
+C:\Users\Bl3iD\Desktop\projects_for_GitHub\Aid4Trade_13118059\Aid4Trade_13118059\obj\Debug\Aid4Trade_13118059.pdb
