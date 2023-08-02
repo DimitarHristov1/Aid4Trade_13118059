@@ -1,0 +1,155 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeBehind="Site.master.cs" Inherits="Aid4Trade_13118059.SiteMaster" %>
+
+<!DOCTYPE html>
+
+<html lang="en">
+<head runat="server">
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title><%: Page.Title %></title>
+
+    <asp:PlaceHolder runat="server">
+        <%: Scripts.Render("~/bundles/modernizr") %>
+    </asp:PlaceHolder>
+
+    <webopt:BundleReference runat="server" Path="~/Content/css" />
+    <link href="~/favicon.ico" rel="shortcut icon" type="image/x-icon" />
+
+</head>
+<body>
+    <form runat="server">
+        <asp:ScriptManager runat="server">
+            <Scripts>
+                <%--To learn more about bundling scripts in ScriptManager see http://go.microsoft.com/fwlink/?LinkID=301884 --%>
+                <%--Framework Scripts--%>
+                <asp:ScriptReference Name="MsAjaxBundle" />
+                <asp:ScriptReference Name="jquery" />
+                <asp:ScriptReference Name="bootstrap" />
+                <asp:ScriptReference Name="respond" />
+                <asp:ScriptReference Name="WebForms.js" Assembly="System.Web" Path="~/Scripts/WebForms/WebForms.js" />
+                <asp:ScriptReference Name="WebUIValidation.js" Assembly="System.Web" Path="~/Scripts/WebForms/WebUIValidation.js" />
+                <asp:ScriptReference Name="MenuStandards.js" Assembly="System.Web" Path="~/Scripts/WebForms/MenuStandards.js" />
+                <asp:ScriptReference Name="GridView.js" Assembly="System.Web" Path="~/Scripts/WebForms/GridView.js" />
+                <asp:ScriptReference Name="DetailsView.js" Assembly="System.Web" Path="~/Scripts/WebForms/DetailsView.js" />
+                <asp:ScriptReference Name="TreeView.js" Assembly="System.Web" Path="~/Scripts/WebForms/TreeView.js" />
+                <asp:ScriptReference Name="WebParts.js" Assembly="System.Web" Path="~/Scripts/WebForms/WebParts.js" />
+                <asp:ScriptReference Name="Focus.js" Assembly="System.Web" Path="~/Scripts/WebForms/Focus.js" />
+                <asp:ScriptReference Name="WebFormsBundle" />
+                <%--Site Scripts--%>
+            </Scripts>
+        </asp:ScriptManager>
+
+        <div class="navbar navbar-inverse navbar-fixed-top">
+            <div class="container">
+                <div class="navbar-header">
+                    <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                    </button>
+                </div>
+                <asp:ImageButton runat="server" ID="Category_button" CssClass="navbar-brand" 
+                    style="margin-top:4.5px;margin-right:5px;padding-top:4px;padding-bottom:4px;padding-left:7px;padding-right:7px" 
+                    ImageUrl="/Images/logo.png" OnClientClick="return false;" ToolTip="Виж категориите" />
+                <span class="navbar-brand" style="width:5px"></span>
+                <a class="navbar-brand" runat="server" href="~/Home">Aid4Trade.com</a>
+                <div class="navbar-collapse collapse">
+                    <asp:LoginView runat="server" ViewStateMode="Disabled">
+                        <AnonymousTemplate>
+                            <ul class="nav navbar-nav navbar-right">
+                                <li class="nav navbar-nav navbar-right">
+                                    <asp:LoginStatus ID="LoginStatus1" runat="server" LogoutAction="Redirect" LogoutText="Изход" LoginText="Вход" LogoutPageUrl="Home" />
+                                </li>
+                                <li><a runat="server" href="RegistrationUsers">Регистрация</a></li>
+                            </ul>
+                        </AnonymousTemplate>
+                        <LoggedInTemplate>
+                            <ul class="nav navbar-nav navbar-right">
+                                <li class="nav navbar-nav" style="color: white; padding: 15px"><span>Здравей <a href="AccountDetails" title="Информация за акаунта" style="color: lightskyblue" runat="server">
+                                    <asp:LoginName ID="LoginName1" runat="server" Font-Bold="true" />
+                                </a></span></li>
+                                <li style="color: white; padding: 15px; padding-right: 1px; padding-left: 1px">|</li>
+                                <li class="nav navbar-nav navbar-right">
+                                    <asp:LoginStatus ID="LoginStatus1" runat="server" LogoutAction="Redirect" LogoutText="Изход" LoginText="Вход" LogoutPageUrl="Home" />
+                                </li>
+                            </ul>
+                        </LoggedInTemplate>
+                        <RoleGroups>
+                            <asp:RoleGroup Roles="Admin">
+                                <ContentTemplate>
+                                    <ul class="nav navbar-nav navbar-right">
+                                        <li><a runat="server" style="font-size: 13px; font-stretch: semi-expanded" href="CreateCategory">Създаване на категория</a></li>
+                                        <li><a runat="server" style="font-size: 13px; font-stretch: semi-expanded" href="ApproveDisapproveDealers">Одобряване/Неодобряване на търговци</a></li>
+                                        <li><a runat="server" style="font-size: 13px; font-stretch: semi-expanded" href="ApproveDisapproveProducts">Одобряване/Неодобряване на продукти</a></li>
+                                        <li class="nav navbar-nav" style="color: white; padding: 15px"><span>Здравей, <a href="AccountDetails" title="Информация за акаунта" style="color: lightskyblue" runat="server">
+                                            <asp:LoginName ID="LoginName1" runat="server" Font-Bold="true" />
+                                        </a></span></li>
+                                        <li style="color: white; padding: 15px; padding-right: 1px; padding-left: 1px">|</li>
+                                        <li class="nav navbar-nav navbar-right">
+                                            <asp:LoginStatus ID="LoginStatus1" runat="server" LogoutAction="Redirect" LogoutText="Изход" LoginText="Вход" LogoutPageUrl="Home" />
+                                        </li>
+                                    </ul>
+                                </ContentTemplate>
+                            </asp:RoleGroup>
+                            <asp:RoleGroup Roles="User">
+                                <ContentTemplate>
+                                    <ul class="nav navbar-nav navbar-right">
+                                        <li class="nav navbar-nav" style="color: white; padding: 15px"><span>Здравей, <a href="AccountDetails" title="Информация за акаунта" style="color: lightskyblue" runat="server">
+                                            <asp:LoginName ID="LoginName1" runat="server" Font-Bold="true" />
+                                        </a></span></li>
+                                        <li style="color: white; padding: 15px; padding-right: 1px; padding-left: 1px">|</li>
+                                        <li class="nav navbar-nav navbar-right">
+                                            <asp:LoginStatus ID="LoginStatus1" runat="server" LogoutAction="Redirect" LogoutText="Изход" LoginText="Вход" LogoutPageUrl="Home" />
+                                        </li>
+                                    </ul>
+                                </ContentTemplate>
+                            </asp:RoleGroup>
+                            <asp:RoleGroup Roles="Dealer">
+                                <ContentTemplate>
+                                    <ul class="nav navbar-nav navbar-right">
+                                        <li><a runat="server" style="font-size: 17px" href="UploadProduct">Качване на продукт</a></li>
+                                        <li class="nav navbar-nav" style="color: white; padding: 15px"><span>Здравей, <a href="AccountDetails" title="Информация за акаунта" style="color: lightskyblue" runat="server">
+                                            <asp:LoginName ID="LoginName1" runat="server" Font-Bold="true" />
+                                        </a></span></li>
+                                        <li style="color: white; padding: 15px; padding-right: 1px; padding-left: 1px">|</li>
+                                        <li class="nav navbar-nav navbar-right">
+                                            <asp:LoginStatus ID="LoginStatus1" runat="server" LogoutAction="Redirect" LogoutText="Изход" LoginText="Вход" LogoutPageUrl="LoginUsers" />
+                                        </li>
+                                    </ul>
+                                </ContentTemplate>
+                            </asp:RoleGroup>
+                        </RoleGroups>
+                    </asp:LoginView>
+                </div>
+            </div>
+        </div>
+        <div id="CategoryMenu" style="text-align: center;display:none">
+            <asp:ListView ID="categoryList" runat="server">
+                <ItemTemplate>
+                    <b style="font-size: medium; font-style: normal">
+                        <a title="<%# Eval("[Category description]") %>" href="<%#: GetRouteUrl("CategoryByName", new {categoryName = Eval("[Category name]")}) %>">
+                            <%# Eval("[Category name]") %>
+                        </a>
+                    </b>
+                </ItemTemplate>
+                <ItemSeparatorTemplate>| </ItemSeparatorTemplate>
+            </asp:ListView>
+        </div>
+        <div class="container body-content">
+            <asp:ContentPlaceHolder ID="MainContent" runat="server">
+            </asp:ContentPlaceHolder>
+            <hr />
+            <footer>
+                <p>&copy; <%: DateTime.Now.Year %> - Aid4Trade</p>
+            </footer>
+        </div>
+        <script>
+            $(document).ready(function () {
+                $("#Category_button").click(function () {
+                    $("#CategoryMenu").toggle(400);
+                });
+            });
+        </script>
+    </form>
+</body>
+</html>
